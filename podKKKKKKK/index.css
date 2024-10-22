@@ -1,0 +1,164 @@
+.image-5-icon {
+    position: absolute;
+    top: -134px;
+    left: 0px;
+    width: 1490px;
+    height: 1214px;
+    object-fit: cover;
+}
+.barra {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #000;
+    width: 1490px;
+    height: 175px;
+}
+.image-1-icon {
+    position: absolute;
+    top: 544px;
+    left: 126px;
+    width: 426px;
+    height: 362px;
+    object-fit: cover;
+}
+.image-2-icon {
+    position: absolute;
+    top: 544px;
+    left: 552px;
+    width: 455px;
+    height: 390px;
+    object-fit: cover;
+}
+.image-3-icon {
+    position: absolute;
+    top: 544px;
+    left: 1007px;
+    width: 434px;
+    height: 362px;
+    object-fit: cover;
+}
+.image-icon {
+    position: absolute;
+    top: 278px;
+    left: 494px;
+    width: 196px;
+    height: 245px;
+    object-fit: cover;
+}
+.image-4-icon {
+    position: absolute;
+    top: 259px;
+    left: 774px;
+    width: 318.8px;
+    height: 309.6px;
+    object-fit: contain;
+}
+.tela-principal-child {
+    position: absolute;
+    top: 906px;
+    left: 126px;
+    background-color: #fff;
+    width: 1315px;
+    height: 174px;
+}
+.pod-2 {
+    position: absolute;
+    top: 921px;
+    left: 719px;
+    font-weight: 600;
+}
+.pod-3 {
+    position: absolute;
+    top: 921px;
+    left: 1171px;
+    font-weight: 600;
+}
+.boto-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 15px;
+    background-color: #09ff00;
+    width: 135px;
+    height: 54px;
+}
+.r-29990 {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    font-weight: 600;
+}
+.boto {
+    position: absolute;
+    top: 983px;
+    left: 1156px;
+    width: 135px;
+    height: 54px;
+    cursor: pointer;
+    font-size: 24px;
+}
+.r-10990 {
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    font-weight: 600;
+}
+.boto1 {
+    position: absolute;
+    top: 983px;
+    left: 704px;
+    width: 135px;
+    height: 54px;
+    cursor: pointer;
+    font-size: 24px;
+}
+.r-9990 {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-weight: 600;
+}
+.boto2 {
+    position: absolute;
+    top: 983px;
+    left: 245px;
+    width: 135px;
+    height: 54px;
+    cursor: pointer;
+    font-size: 24px;
+}
+.promoo-de-pod {
+    position: absolute;
+    top: 37px;
+    left: 313px;
+    font-size: 96px;
+    font-weight: 600;
+    color: #ff0101;
+}
+.premium-s-pq {
+    position: absolute;
+    top: 1043px;
+    left: 1196px;
+    font-size: 5px;
+    font-weight: 600;
+}
+.pod-1 {
+    position: absolute;
+    top: 921px;
+    left: 262px;
+    font-weight: 600;
+}
+.tela-principal {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1080px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 40px;
+    color: #000;
+    font-family: Inter;
+}
+
