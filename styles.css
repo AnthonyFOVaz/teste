@@ -1,0 +1,134 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburguer {
+    display: none; /* Esconde o ícone hamburguer por padrão */
+    cursor: pointer;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+/* Estilos do Catálogo de Produtos */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+    width: 200px; /* Largura fixa para os cards */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Depoimentos */
+.testimonial {
+    margin: 10px 0;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input {
+    margin: 5px 0;
+    padding: 8px;
+    width: 80%; /* Largura do campo de input */
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Links Sociais */
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .product-grid {
+        flex-direction: column; /* Empilha os cards verticalmente */
+        align-items: center; /* Centraliza os cards */
+    }
+
+    .product-card {
+        width: 90%; /* Os cards ocupam 90% da largura da tela */
+        margin: 10px 0; /* Margem vertical entre os cards */
+    }
+
+    nav ul {
+        flex-direction: column; /* Menu empilhado em dispositivos móveis */
+        display: none; /* Oculta o menu por padrão */
+    }
+
+    nav ul.active {
+        display: flex; /* Exibe o menu quando ativo */
+    }
+
+    .hamburguer {
+        display: block; /* Mostra o ícone hamburguer */
+    }
+}
+
+@media (min-width: 769px) {
+    .hamburguer {
+        display: none; /* Esconde o ícone hamburguer em telas maiores */
+    }
+}
